@@ -151,16 +151,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
-# Bluetooth Library Deps
+# Bluetooth LDAC
 PRODUCT_PACKAGES += \
-    libbluetooth_audio_session \
-    libbthost_if.vendor \
-    libldacBT_bco \
-    libldacBT_bco.vendor \
-    liblhdc \
-    liblhdcBT_enc \
-    liblhdcdec \
-    liblhdcBT_dec
+    libldacBT_bco
 
 # Camera
 PRODUCT_PACKAGES += \
